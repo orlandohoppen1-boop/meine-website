@@ -1,14 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
   <head>
-    <title>Meine Website</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Über mich | Orlando</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <main class="container">
+      <section class="card hero" aria-labelledby="hero-title">
+        <p class="kicker">Über mich</p>
+        <h1 id="hero-title">Hi, ich bin Orlando.</h1>
+        <p class="description">
+          Ich entwickle moderne, benutzerfreundliche Web-Erlebnisse mit Fokus auf
+          Performance, Design und sauberem Code.
+        </p>
+        <a class="contact-button" href="mailto:orlando@example.com">Kontakt aufnehmen</a>
+      </section>
 
-    <h1>Ich bin bereit für codex!
-    </h1>
-    <p>Meine erste echte Website.</p>
+      <section class="card" aria-labelledby="skills-title">
+        <h2 id="skills-title">Meine Skills</h2>
+        <ul class="skills-list">
+          <li>HTML5 &amp; semantisches Markup</li>
+          <li>Modernes CSS (Flexbox, Grid, Animationen)</li>
+          <li>JavaScript &amp; interaktive UI-Elemente</li>
+          <li>Responsive Webdesign</li>
+        </ul>
+      </section>
+    </main>
 
     <script src="script.js"></script>
   </body>
