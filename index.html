@@ -1,14 +1,115 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
   <head>
-    <title>Meine Website</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Moderne Über-mich-Website von Orlando mit Profil, Skills und Kontaktmöglichkeit."
+    />
+    <title>Orlando | Über mich</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div class="background-orb orb-one"></div>
+    <div class="background-orb orb-two"></div>
 
-    <h1>Ich bin bereit für codex!
-    </h1>
-    <p>Meine erste echte Website.</p>
+    <main class="page-shell">
+      <section class="hero-panel" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Über mich</p>
+          <h1 id="hero-title">Ich bin Orlando — ich gestalte digitale Erlebnisse mit Stil.</h1>
+          <p class="hero-text">
+            Ich verbinde klares Design, durchdachte Nutzerführung und moderne
+            Frontend-Entwicklung, um Websites zu bauen, die schnell, elegant und
+            überzeugend wirken.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#kontakt">Kontakt-Button</a>
+            <a class="button button-secondary" href="#skills">Meine Skills</a>
+          </div>
+        </div>
+
+        <aside class="hero-card" aria-label="Kurzprofil von Orlando">
+          <span class="status-pill">Verfügbar für neue Projekte</span>
+          <div class="profile-grid">
+            <article>
+              <strong>Fokus</strong>
+              <p>UI Design, Frontend &amp; responsive Websites</p>
+            </article>
+            <article>
+              <strong>Stärke</strong>
+              <p>Saubere Interfaces mit Liebe zum Detail</p>
+            </article>
+            <article>
+              <strong>Anspruch</strong>
+              <p>Modern, schnell und angenehm zu bedienen</p>
+            </article>
+          </div>
+        </aside>
+      </section>
+
+      <section class="info-grid">
+        <article class="glass-card" id="skills" aria-labelledby="skills-title">
+          <div class="section-heading">
+            <p class="section-label">Skills</p>
+            <h2 id="skills-title">Was ich mitbringe</h2>
+          </div>
+          <p class="section-text">
+            Mein Stack ist darauf ausgerichtet, ästhetische und performante Webauftritte
+            zu entwickeln, die auf jedem Gerät überzeugen.
+          </p>
+          <ul class="skill-tags">
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>Responsive Design</li>
+            <li>UI/UX Denken</li>
+            <li>Performance</li>
+          </ul>
+        </article>
+
+        <article class="glass-card" aria-labelledby="about-title">
+          <div class="section-heading">
+            <p class="section-label">Kurzprofil</p>
+            <h2 id="about-title">Meine Arbeitsweise</h2>
+          </div>
+          <p class="section-text">
+            Ich mag reduzierte Layouts, starke Typografie und Komponenten, die nicht
+            nur gut aussehen, sondern auch technisch sauber umgesetzt sind.
+          </p>
+          <div class="feature-list">
+            <div>
+              <span>01</span>
+              <p>Klare Strukturen für einen professionellen ersten Eindruck.</p>
+            </div>
+            <div>
+              <span>02</span>
+              <p>Responsives Verhalten für Desktop, Tablet und Smartphone.</p>
+            </div>
+            <div>
+              <span>03</span>
+              <p>Fokus auf Nutzerfreundlichkeit und modernes visuelles Design.</p>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="contact-panel glass-card" id="kontakt" aria-labelledby="contact-title">
+        <div>
+          <p class="section-label">Kontakt</p>
+          <h2 id="contact-title">Lass uns zusammen etwas Starkes bauen.</h2>
+          <p class="section-text contact-text">
+            Wenn du eine moderne Website oder eine frische persönliche Online-Präsenz
+            suchst, freue ich mich auf deine Nachricht.
+          </p>
+        </div>
+        <a class="button button-primary contact-cta" href="mailto:orlando@example.com">
+          Schreibe Orlando
+        </a>
+      </section>
+    </main>
 
     <script src="script.js"></script>
   </body>
