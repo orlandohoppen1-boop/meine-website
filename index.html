@@ -3,85 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Persönliche Website von Orlando mit Kurzprofil, Skills und Kontaktmöglichkeit."
-    />
-    <title>Orlando | Über mich</title>
+    <title>Über mich | Orlando</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="page-bg"></div>
-
-    <header class="site-header">
-      <a class="brand" href="#top">Orlando</a>
-      <nav class="site-nav" aria-label="Hauptnavigation">
-        <a href="#about">Über mich</a>
-        <a href="#skills">Skills</a>
-        <a href="#contact">Kontakt</a>
-      </nav>
-    </header>
-
-    <main id="top" class="layout">
-      <section class="hero card" aria-labelledby="hero-title">
-        <div class="hero-content">
-          <p class="eyebrow">Persönliche Website</p>
-          <h1 id="hero-title">Hi, ich bin Orlando.</h1>
-          <p class="hero-text">
-            Ich entwickle moderne Websites mit einem klaren Look, guter Struktur
-            und einem Fokus auf ein angenehmes Nutzererlebnis.
-          </p>
-          <div class="hero-actions">
-            <a class="button button-primary" href="#contact">Kontakt</a>
-            <a class="button button-secondary" href="#skills">Meine Skills</a>
-          </div>
-        </div>
-
-        <aside class="hero-highlight" aria-label="Kurzes Profil von Orlando">
-          <p class="highlight-label">Kurzprofil</p>
-          <ul class="highlight-list">
-            <li>Modernes Webdesign</li>
-            <li>Saubere Frontend-Umsetzung</li>
-            <li>Responsive auf allen Geräten</li>
-          </ul>
-        </aside>
+    <main class="container">
+      <section class="card hero" aria-labelledby="hero-title">
+        <p class="kicker">Über mich</p>
+        <h1 id="hero-title">Hi, ich bin Orlando.</h1>
+        <p class="description">
+          Ich entwickle moderne, benutzerfreundliche Web-Erlebnisse mit Fokus auf
+          Performance, Design und sauberem Code.
+        </p>
+        <a class="contact-button" href="mailto:orlando@example.com">Kontakt aufnehmen</a>
       </section>
 
-      <section id="about" class="content-grid">
-        <article class="card section-card">
-          <p class="eyebrow">Über mich</p>
-          <h2>Was mich ausmacht</h2>
-          <p>
-            Ich mag übersichtliche Layouts, starke Typografie und Websites, die
-            schnell laden und professionell wirken. Mein Ziel ist es, Inhalte so
-            zu präsentieren, dass sie sofort verständlich und ansprechend sind.
-          </p>
-        </article>
-
-        <article id="skills" class="card section-card">
-          <p class="eyebrow">Skills</p>
-          <h2>Meine wichtigsten Skills</h2>
-          <ul class="skills-list">
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>Responsive Design</li>
-            <li>UI/UX-Grundlagen</li>
-            <li>Saubere Gestaltung</li>
-          </ul>
-        </article>
-      </section>
-
-      <section id="contact" class="card contact-card" aria-labelledby="contact-title">
-        <div>
-          <p class="eyebrow">Kontakt</p>
-          <h2 id="contact-title">Lass uns in Kontakt kommen.</h2>
-          <p>
-            Wenn du mit mir über eine Website oder eine Zusammenarbeit sprechen
-            möchtest, kannst du mir direkt schreiben.
-          </p>
-        </div>
-        <a class="button button-primary" href="mailto:orlando@example.com">Kontakt aufnehmen</a>
+      <section class="card" aria-labelledby="skills-title">
+        <h2 id="skills-title">Meine Skills</h2>
+        <ul class="skills-list">
+          <li>HTML5 &amp; semantisches Markup</li>
+          <li>Modernes CSS (Flexbox, Grid, Animationen)</li>
+          <li>JavaScript &amp; interaktive UI-Elemente</li>
+          <li>Responsive Webdesign</li>
+        </ul>
       </section>
     </main>
 
