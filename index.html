@@ -1,14 +1,118 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
   <head>
-    <title>Meine Website</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Moderne persönliche Website von Orlando mit Kurzprofil, Skills und Kontaktmöglichkeit."
+    />
+    <title>Orlando | Moderne Über-mich Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div class="page-glow page-glow-left"></div>
+    <div class="page-glow page-glow-right"></div>
 
-    <h1>Ich bin bereit für codex!
-    </h1>
-    <p>Meine erste echte Website.</p>
+    <header class="site-header">
+      <a class="brand" href="#top">Orlando</a>
+      <nav class="site-nav" aria-label="Hauptnavigation">
+        <a href="#about">Über mich</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Kontakt</a>
+      </nav>
+    </header>
+
+    <main id="top" class="page-shell">
+      <section class="hero-section card" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Moderne Online-Präsenz</p>
+          <h1 id="hero-title">Hi, ich bin Orlando.</h1>
+          <p class="hero-text">
+            Ich gestalte moderne Websites mit klarem Design, guter Struktur und
+            einem Look, der professionell wirkt und leicht im Kopf bleibt.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#contact">Kontakt aufnehmen</a>
+            <a class="button button-secondary" href="#skills">Meine Skills</a>
+          </div>
+
+          <ul class="hero-facts" aria-label="Kurzinfos über Orlando">
+            <li><strong>Fokus:</strong> Modernes Webdesign</li>
+            <li><strong>Stil:</strong> Klar, hochwertig, benutzerfreundlich</li>
+            <li><strong>Ziel:</strong> Ein starker erster Eindruck online</li>
+          </ul>
+        </div>
+
+        <aside class="hero-panel" aria-label="Profilkarte von Orlando">
+          <p class="panel-label">Kurzprofil</p>
+          <h2>Digitale Auftritte mit Persönlichkeit</h2>
+          <p>
+            Ich kombiniere saubere Frontend-Umsetzung mit modernem Design, damit
+            Webseiten nicht nur gut aussehen, sondern auch angenehm zu benutzen sind.
+          </p>
+
+          <div class="panel-stats">
+            <div>
+              <span>01</span>
+              <p>Saubere Struktur</p>
+            </div>
+            <div>
+              <span>02</span>
+              <p>Responsive Layouts</p>
+            </div>
+            <div>
+              <span>03</span>
+              <p>Klare Kommunikation</p>
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <section class="content-grid">
+        <article id="about" class="card info-card">
+          <p class="eyebrow">Über mich</p>
+          <h2>Was mir bei einer guten Website wichtig ist</h2>
+          <p>
+            Ich mag reduzierte Designs, starke Typografie und Seiten, die sofort
+            professionell wirken. Mein Anspruch ist es, Inhalte übersichtlich,
+            modern und angenehm verständlich darzustellen.
+          </p>
+        </article>
+
+        <article id="skills" class="card info-card">
+          <p class="eyebrow">Skills</p>
+          <h2>Meine wichtigsten Skills</h2>
+          <ul class="skill-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Responsive Design</li>
+            <li>UI/UX-Grundlagen</li>
+            <li>Saubere Gestaltung</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="card contact-section" id="contact" aria-labelledby="contact-title">
+        <div>
+          <p class="eyebrow">Kontakt</p>
+          <h2 id="contact-title">Lass uns gemeinsam etwas Modernes aufbauen.</h2>
+          <p>
+            Wenn du eine persönliche Website oder einen frischen Webauftritt suchst,
+            freue ich mich auf deine Nachricht.
+          </p>
+        </div>
+        <a class="button button-primary" href="mailto:orlando@example.com">E-Mail senden</a>
+      </section>
+    </main>
 
     <script src="script.js"></script>
   </body>
